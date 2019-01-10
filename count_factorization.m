@@ -8,7 +8,7 @@ load facebook_xiid
 
 
 R=50; % rank
-iterN=200; % number of MCMC iterations
+iterN=10000; % number of MCMC iterations
 M=4;% number of splits of dataset, set it equal or less than the # of cores, set this parameter only when use the parallel implementation 
 cutmode=2; % along which mode to split the data, set this parameter only when use the parallel implementation
 isbatch=0; % whether online or batch Gibbs (0 is online) 

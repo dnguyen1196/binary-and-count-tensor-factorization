@@ -4,14 +4,14 @@ addpath('BinaryTensorFactorization');
 addpath('Dataset');
 
 % load kinship_idxi
- load nation_idxi
-% load kinship
+% load nation_idxi
+load kinship
 % load nation
 % load umls
 
 R=20;
-numiters=60;
-fraction=5;% ratio between number of zeros and ones in testing data
+numiters=1000;
+fraction=1;% ratio between number of zeros and ones in testing data
 for k=1:3 
     N(k) = max(id{k}); 
 end
